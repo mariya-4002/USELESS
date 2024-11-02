@@ -1,53 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 70px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #2c3e50;
+    font-size: 26px;
+    letter-spacing: 1px;
 }
 
 label {
-    margin: 10px 0 5px;
+    margin: 14px 0 6px;
     display: block;
+    color: #34495e;
+    font-size: 14px;
 }
 
 input {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 14px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
 }
 
 button {
     width: 100%;
-    padding: 10px;
-    background-color: #5cb85c;
+    padding: 14px;
+    background-color: #e74c3c;
     border: none;
-    color: white;
-    border-radius: 4px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-    background-color: #4cae4c;
+    background-color: #c0392b;
+    transform: translateY(-2px);
 }
 
 .result {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 30px;
+    font-size: 20px;
     text-align: center;
+    color: #2980b9;
 }
