@@ -1,69 +1,75 @@
 body {
-    font-family: 'Helvetica', sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #d3cce3, #e9e4f0);
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 350px;
-    margin: 70px auto;
-    padding: 30px;
+    width: 380px;
+    margin: 80px auto;
+    padding: 35px;
     background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
 h1 {
     text-align: center;
-    color: #2c3e50;
-    font-size: 26px;
-    letter-spacing: 1px;
+    color: #2f3640;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 label {
-    margin: 14px 0 6px;
+    margin: 20px 0 10px;
     display: block;
-    color: #34495e;
-    font-size: 14px;
+    color: #7f8fa6;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 input {
     width: 100%;
-    padding: 12px;
-    margin-bottom: 14px;
-    border: 1px solid #bdc3c7;
-    border-radius: 8px;
-    font-size: 15px;
-    transition: border-color 0.3s ease;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f5f6fa;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 input:focus {
-    border-color: #3498db;
+    border-color: #487eb0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(72, 126, 176, 0.3);
     outline: none;
 }
 
 button {
     width: 100%;
-    padding: 14px;
-    background-color: #e74c3c;
+    padding: 15px;
+    background-color: #44bd32;
     border: none;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
-    background-color: #c0392b;
-    transform: translateY(-2px);
+    background-color: #27ae60;
+    transform: scale(1.03);
 }
 
 .result {
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
-    color: #2980b9;
+    color: #0097e6;
+    font-weight: 600;
 }
